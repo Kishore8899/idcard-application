@@ -2,21 +2,29 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="login.css">>
 <title>Login Form</title>
 </head>
-<body style="background-color:silver";>
+<body>
 <h1 align="middle">ENTER YOUR DETAILS</h1>
+<form id="div-forms">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+</form>
 
-<form align="center" action="sign.php">
-USER NAME:<input type="text" name="user" id="user"><br>
-<br>
-PASSWORD:<input name="pass" type="text" id="pass"><br>
-<br>
-<input type="submit" value="Login"><br><br>
-</form>
+
 <form action="signup.html" align="center">
-<input type="submit" value="Signup">
+	<input type="submit" value="Login" class="btn btn-primary" id="login">    
+	<input type="submit" value="Signup" class="btn btn-success">
 </form>
+</div>
 <br>
 </body>
 </html>
