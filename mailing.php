@@ -1,5 +1,5 @@
 <?php
-include 'mailing.php';
+include 'test.php';
 $to_mail="kish16124.it@rmkec.ac.in";
 $mail_content="eppadi da irukka kishore";
 $mail_subject="hi";
