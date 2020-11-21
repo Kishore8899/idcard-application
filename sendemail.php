@@ -13,7 +13,7 @@ if (!$con)
   }
   else
   {
-	  echo "kishore";
+	  echo "connected";
   }
   if ( $con ) {
 
